@@ -31,6 +31,6 @@ if (value === 'dark-theme') {
 
 //function onDarkTheme() {
 //localStorage.theme === Theme.LIGHT
-//? (themeSwitchToggleEl.checked = false)
-// : (themeSwitchToggleEl.checked = true);
+// ? (themeSwitchToggleEl.checked = false)
+//: (themeSwitchToggleEl.checked = true);
 //}
