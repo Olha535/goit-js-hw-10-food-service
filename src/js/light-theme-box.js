@@ -14,12 +14,13 @@ themeSwitchToggleEl.addEventListener('change', onThemeSwitch);
 function onThemeSwitch(evt) {
   if (evt.target.checked) {
     localStorage.setItem('theme', Theme.DARK);
+
     //localStorage.removeItem('theme');
-    document.body.classList.toggle(Theme.DARK);
   } else {
     localStorage.setItem('theme', Theme.LIGHT);
-    document.body.classList.toggle(Theme.LIGHT);
   }
+  document.body.classList.toggle(Theme.DARK);
+  document.body.classList.toggle(Theme.LIGHT);
 }
 
 const value = localStorage.getItem('theme');
