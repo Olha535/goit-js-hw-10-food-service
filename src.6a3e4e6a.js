@@ -13,4 +13,4 @@ const e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector("body")
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./js/food-cards"),require("./js/light-theme-box");
 },{"./js/food-cards":"MlwI","./js/light-theme-box":"KyWQ"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.7f8f7871.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.6a3e4e6a.js.map
