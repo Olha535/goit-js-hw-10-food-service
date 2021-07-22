@@ -9,8 +9,8 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"MlwI":[function(require,module,exports) {
 "use strict";var e=r(require("./menu.json")),t=r(require("../templates/food-card.hbs"));function r(e){return e&&e.__esModule?e:{default:e}}const u=document.querySelector(".js-menu"),n=(0,t.default)(e.default);u.insertAdjacentHTML("beforeend",n);
 },{"./menu.json":"NkM5","../templates/food-card.hbs":"Ywpp"}],"KyWQ":[function(require,module,exports) {
-const e={LIGHT:"light-theme",DARK:"dark-theme"};document.body.classList.add(e.LIGHT);const t=document.querySelector("theme-switch__toggle");function c(c){t.checked?localStorage.setItem("theme",e.Dark):localStorage.setItem("theme",e.LIGHT),document.body.classList.toggle(e.LIGHT),document.body.classList.toggle(e.Dark)}function o(){localStorage.theme===e.LIGHT?t.checked=!1:t.checked=!0}t.addEventListener("change",c);
+const e={LIGHT:"light-theme",DARK:"dark-theme"},t=localStorage.getItem("theme");"dark-theme"===t&&(c.checked=!0,body.classList.add("dark-theme"));const c=document.querySelector(".theme-switch__toggle");function o(t){t.target.checked?localStorage.setItem("theme",e.Dark):localStorage.setItem("theme",e.LIGHT),document.body.classList.toggle(e.LIGHT),document.body.classList.toggle(e.Dark)}c.addEventListener("change",o);
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./js/food-cards"),require("./js/light-theme-box");
 },{"./js/food-cards":"MlwI","./js/light-theme-box":"KyWQ"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.927f166b.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.9fb9de62.js.map
