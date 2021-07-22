@@ -16,8 +16,6 @@ function onThemeSwitch(evt) {
     localStorage.setItem('theme', Theme.DARK);
     document.body.classList.toggle(Theme.DARK);
     document.body.classList.toggle(Theme.LIGHT);
-
-    //localStorage.removeItem('theme');
   } else {
     localStorage.setItem('theme', Theme.LIGHT);
     document.body.classList.remove(Theme.DARK);
